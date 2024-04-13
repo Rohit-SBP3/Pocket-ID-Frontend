@@ -1,0 +1,51 @@
+name: pocketid
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider:
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  google_fonts: ^6.1.0
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.3.1
+  flutter_easyloading: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/lato.ttf
+    - family: Lato-Reg
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
+    - family: Lato-Thin
+      fonts:
+        - asset: fonts/Lato-Thin.ttf
+    - family: Poppins
+      fonts:
+        - asset: fonts/p1.ttf
+    - family: Poppins-Reg
+      fonts:
+        - asset: fonts/p3.ttf
+    - family: Poppins-Thin
+      fonts:
+        - asset: fonts/p5.ttf
